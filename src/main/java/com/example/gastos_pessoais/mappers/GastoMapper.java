@@ -5,7 +5,7 @@ import com.example.gastos_pessoais.dtos.GastoDto;
 import com.example.gastos_pessoais.entities.Gasto;
 
 public class GastoMapper {
-    public GastoDto gastoDto(Gasto gasto) {
+    public GastoDto toDto(Gasto gasto) {
         if(gasto ==null) {
             return  null;
         }
